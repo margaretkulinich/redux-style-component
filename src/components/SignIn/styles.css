@@ -1,0 +1,88 @@
+.sign-container {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bolder;
+}
+
+.lock-icon {    
+    background-color: #F48FB2;
+    padding: 10px;
+    border-radius: 50%;
+    color: #121212;
+}
+
+.container-forms {
+    display: flex;
+    flex-direction: column;
+}
+
+.full-name {
+    display: flex;
+    flex-direction: row;
+}
+
+.input-sign-firstname {
+    margin-right: 15px;
+}
+
+input {
+    background-color: #121212;
+    border-radius: 5px;
+    padding: 12px;
+    border: 1px solid #363636;
+    margin-bottom: 15px;
+    min-width: 0;
+    color: white;
+}
+
+.submit-button {
+    background-color: #90CAF9;
+    border-radius: 5px;
+    color: #121212;
+    border: none;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-weight: bolder;
+}
+
+.checkbox {
+    margin-bottom: 15px;
+    display: flex;
+    font-size: 12px;
+    font-weight: bolder;
+    line-height: 1.5em;
+}
+
+.helpers-block {
+    color: #5A7B95;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 0.8em;
+}
+
+.nav-link {
+    color: #5A7B95;
+}
+
+.footer {
+    margin-top: 15%;
+    font-size: 0.8em;
+    text-align: center;
+    color: #424242;
+}
+
+.links {
+    justify-content: space-between;
+}
+
+.header-label-invalid {
+    color: red;
+}
