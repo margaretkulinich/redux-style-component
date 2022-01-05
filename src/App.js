@@ -10,7 +10,7 @@ import { Home } from './components/Home';
 
 export function App() {
   return (
-    <Router>
+    <Router basename="/redux-style-component">
       <div className="container">
         <Routes>
             <Route path='/sign-up' element={<SignUp/>} />
